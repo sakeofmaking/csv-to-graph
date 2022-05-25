@@ -48,9 +48,9 @@ def plot_data(x_header, y1_header, y2_header, y3_header, x_values, y1_values, y2
 
     # Plot line
     plt.figure()
-    # plt.plot(x_values, y1_values, c='red', label=y1_header)
+    plt.plot(x_values, y1_values, c='red', label=y1_header)
     plt.plot(x_values, y2_values, c='green', label=y2_header)
-    # plt.plot(x_values, y3_values, c='blue', label=y3_header)
+    plt.plot(x_values, y3_values, c='blue', label=y3_header)
 
     # Set chart title and label axis
     plt.title("Voltage Over Time", fontsize=24)
