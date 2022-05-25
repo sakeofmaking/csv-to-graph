@@ -244,7 +244,7 @@
                 "sha256:807ae3cf43b84693c9272f70368440a9a7eaa2e7e6882dad943c32fbf7e51402"
             ],
             "markers": "python_version >= '3.3'",
-            "version": "==8.3.0"
+            "version": "==7.33.0"
         },
         "ipython-genutils": {
             "hashes": [
